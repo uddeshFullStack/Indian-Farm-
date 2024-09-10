@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Footer from "../components/footer";
 import PropTypes from "prop-types";
 import { useMediaQuery } from "react-responsive";
-import MobileNavBar from "../components/mobileNavBar/MobileNavBar";
+import MobileNavBar from "../components/MobileNavBar/MobileNavBar";
 import TopNavBar from "../components/TopNavBar";
 
 const Layout = ({ children }) => {
